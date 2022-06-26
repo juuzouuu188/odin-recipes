@@ -1,0 +1,107 @@
+*{
+    font-family: Monospace,'Times New Roman', Times, serif;
+}
+body {
+    background: linear-gradient(180deg, #FFEEEE, lightblue);
+    height: fit-content;
+}
+h1, h2, h3{
+    text-align:center;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h2, h3{
+    font-size: 1.5rem
+}
+.imgs1, .info1, .block
+    {
+        display: block;
+        margin:auto;
+        border-radius: 25px;
+        width: min(70%, 700px);
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.479);
+    }
+    .info1{
+            margin-top: 2rem;
+            border: 1px solid black;
+            text-align: left;
+            border-radius: 5px;
+            background-color: aliceblue;
+        }
+        .block{
+            margin-top: 2rem;
+            border: 1px solid black;
+            text-align: center;
+            border-radius: 5px;
+            background-color: aliceblue;
+        }
+        ul {
+            list-style: none;
+          }
+          hr{
+            border-top: 1px dashed gray;
+          }
+        ul li::before{
+            content: "\2022"; 
+            color: black;
+            font-weight: bold;
+            display: inline-block;
+            width: 2em; 
+            margin-left: -3em; 
+          }
+          .block2{
+            display: block;
+            margin: auto;
+            width: fit-content;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.479);
+          }
+          .content2{
+            margin-top: 2rem;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: aliceblue;
+          }
+          .home{
+            transform: translateY(-2.3rem);
+               text-align: center;
+               position: fixed;
+                height: 4rem;
+                width:10rem;
+                line-height: 5.5rem;
+                left:1px;
+               top:1px;
+               background-color: white;
+               box-shadow: 0px 0px 15px black;
+               border-radius: 100%;
+               border:6px solid skyblue;
+               color:black;
+                text-decoration: underline;
+         }
+         .top{
+            transform: translateY(-2.3rem);
+               text-align: center;
+               position: fixed;
+                height: 4rem;
+                width:10rem;
+                line-height: 5.5rem;
+                left: 175px;
+               top: 1px;
+               background-color: white;
+               box-shadow: 0px 0px 15px black;
+               border-radius: 100%;
+               border:6px solid skyblue;
+               color:black;
+                text-decoration: underline;   
+         }
+         .block3{
+            display: block;
+        margin:auto;
+            margin-top: 2rem;
+            border: 1.5px solid black;
+            text-align: left;
+            width: 1500px;
+            border-radius: 5px;
+            background-color: aliceblue;
+         }
+          
